@@ -7,47 +7,88 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-    <div class="wix">
+<body id="home">
+    <!-- <div class="wix">
         <h2>WIX</h2><span class="st">|</span>
         <p>This website was built on wix. Create yours today.</p>
         <button class="get">Get Started</button>
-    </div>
-    <div class="trip">
-        <h1>TRIPSANDGO</h1>
-        <ul>
-            <li>Home</li>
-            <li>About</li> <li class="team">Our team</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>contact</li>
+    </div> -->
+<!-- <nav>
+    <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#abaut">About</a>
+                <ul class="dropdown">
+          <li><a href="team.html">Our Team</a></li>
+        </ul>
+            </li> -->
+            <!-- <li class="team">Our team</li>
+            <li><a href="#savises">Services</a></li> -->
+            <!-- <li><a href="./blog.html" target="_blank" >Blog</a></li>
+            <li><a href="./contact.html">contact</a></li>
         </ul>
 
+        </nav> -->
+
+<nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+
+      <li>
+        <a href="#">About</a>
+        <ul class="dropdown">
+          <li><a href="team.html">Our Team</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="#">Services</a>
+        <ul class="dropdown">
+          <li><a href="travel-services.html">Travel Services</a></li>
+          <li><a href="business.html">For Business</a></li>
+        </ul>
+      </li>
+
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+
+    <div class="trip">
+
+
+        <div class="plane-header">
+            <span class="plane left">✈</span>
+            <h1>TRIPSANDGO</h1>
+            <span class="plane right">✈</span>
+        </div>
+        
+    </div>    
         <!-- <div class="icon">
         <i class='bx bxl-pinterest'></i>
         <i class='bx bxl-facebook'></i>
         <i class='bx bxl-facebook'></i>
     </div> -->
-    </div>
+    
      <div class="icon">
-        <i class='bx bxl-pinterest'></i>
-        <i class='bx bxl-facebook'></i>
-        <i class='bx bxl-instagram'></i>
+       <a href="https://www.pinterest.com" target="_blank"><i class='bx bxl-pinterest'></i></a> 
+        <a href="https://www.facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
     </div> 
 
     <section class="travel">
         <div class="traveling">
             <div class="tra">
             <h2>TRAVELING SERVICES</h2>
-            <p class="travel-p">Are you on the journey to abroad but having hard time getting visa verified or trip booked?<br>
-            We offer various traveling services such as visa application processing, flight & hotel booking, tour booking, travel booking and relocation services!</p>
+            <p class="travel-p">Are you on the journey to abroad but having hard time <br> getting visa verified or trip booked?<br>
+            We offer various traveling services such as visa application processing, <br> flight & hotel booking, tour booking, travel booking and relocation services!</p>
             <button>Book now!</button>
             </div>
         </div>
     </section>
-    <div class="abt">
+    <div class="abt" id="abaut">
         <div class="about">
-            <h2>ABOUT</h2>
+            <h2 class aba>ABOUT</h2>
             <p>We are a team of 3 people, who manage daily visa application and travel service processes. We've been doing it more than 5 years and have gathered tons of experiences.
 
 We are located in Estonia, UK and Nigeria!</p>
@@ -57,7 +98,7 @@ We are located in Estonia, UK and Nigeria!</p>
             <img src="./pictures/Screenshot 2025-10-12 21.07.54.png" alt="coding guy">
         </div>
     </div>
-    <div class="sv"> 
+    <div class="sv" id="savises"> 
         <h2 class="service">SERVICES</h2>
         <p class="ser">We offer multiple traveling related services, what may be <br>needed to have successful traveling experience or relocation <br> process!</p>
 
@@ -83,8 +124,10 @@ We are located in Estonia, UK and Nigeria!</p>
     </div>
 
     <section class="reviews">
-        <h2>REVIEWS</h2>
+        
+        <h2 class="rev">REVIEWS</h2>
         <p class="at-first">"At first we used TripsandGo services in February and were not so sure how well entire process goes but now in september we are applying for another visa with their help. Entire process runs as smoothly as it did the first time"</p>
+        
 
         <h2>LATEST POSTS</h2>
         <p class="check"><span>Check back soon</span> <br>
@@ -101,29 +144,6 @@ We are located in Estonia, UK and Nigeria!</p>
             <p><a href="#">Email: tripsandgo@outlook.com</a></p>
             <p>Phone / WhatsApp:+372 5781 8489</p> 
 
-    
-                <!-- <form action="submit">
-                    <div class="form">
-                    <label for="name" >First Name*</label>
-                    <input type="text"required id="name"> -->
-
-                    <!-- <label for="lastname">Last Name*</label>
-                    <input type="text"
-                    required id="lastname">
-
-                    <label for="email">Email*</label>
-                    <input type="emai"
-                    required id="email">
-
-                    <label for="subject">Subject*</label>
-                    <input type="text" required id="subject">
-
-
-                    <label for="message">Leave us a message...*</label>
-                    <textarea name="message" id="message" required></textarea>
-
-                    <button>Submit</button>
-                </form> -->
             <form>
       <div class="form-row">
         <input type="text" placeholder="First Name *" required>
