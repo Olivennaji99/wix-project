@@ -589,10 +589,76 @@ a:hover{
 }
 .flex-div{
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly;
+  width: 60vw; */
 }
 .package{
   display: flex;
+  margin: 20px auto;
+  border: 1.5px solid black;
+}
+.image img{
+  width: 300px;
+  height: 100%;
+}
+.image-info{
+  background: white;
+  width: 300px;
+  text-align: center;
+}
+.image-info p{
+  padding: 30px;
+  font-size: 18px;
+}
+.image-info h4{
+  font-size: 22px;
+}
+.image-info button{
+   margin: 30px;
+   padding: 10px 20px;
+   background: gold;
+   border-radius: 20px;
+}
+.area{
+  text-align: center;
+  font-size: 50px;
+  padding: 40px;
+
+}
+.area-para{
+  text-wrap: wrap;
+  font-size: 20px;
+  width: 500px;
+  margin: 10px auto;
+  line-height: 1.8;
+  word-spacing: 2px;
+  letter-spacing: 1.5px;
+}
+.fr-div{
+  margin: 50px 0;
+}
+.cnt-div{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.pp img{
+  width: 300px;
+  height: 300px;
+  border: 2px solid skyblue;
+  border-radius: 50px;
+}
+.pp p{
+  text-align: center;
+  font-size: 25px;
+  padding: 20px ;
+  width: 100%;
+  margin: auto;
+  margin-top: -10px;
+  background: rgba(144, 209, 234, 0.075);
+  border: 1px solid skyblue;
+  border-radius: 20px;
 }
 
 
