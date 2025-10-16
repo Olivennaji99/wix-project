@@ -134,7 +134,8 @@ li{
 } */
 
 nav {
-    background: rgb(173, 217, 236);
+    /* background: rgb(173, 217, 236); */
+    background: rgb(236, 245, 249);
     padding: 5px 20px;
     position: fixed;
     top: 0;
@@ -431,6 +432,118 @@ a:hover{
 }
 .contact-info a:hover{
     color: blue;
+
+}
+
+.team-about{
+  background: rgb(236, 245, 249);
+  text-align: center;
+}
+.team-about h3{
+  font-size: 50px;
+  padding: 20px 0;
+}
+.team-about h4{
+  font-size: 25px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.team-about p{
+  max-width: 600px;
+  margin: 0 auto;
+  text-wrap: wrap;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.story-div{
+  text-align: center;
+  background: rgb(236, 245, 249);
+  margin-top: -5px;
+}
+.story-div h2{
+  font-size: 50px;
+  padding: 20px 0;
+}
+.para-one{
+  max-width: 600px;
+  margin: 0 auto;
+  text-wrap: wrap;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.para-two{
+  max-width: 600px;
+  margin: 0 auto;
+  text-wrap: wrap;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  word-spacing: 1px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.meet{
+  font-size: 50px;
+  padding: 30px 0;
+  text-align: center;
+}
+/* .ocean{
+  position: relative;
+  padding: 0 auto;
+} */
+.ocean img{
+  /* position: absolute; */
+  width: 90vw;
+  height: 50vh;
+  margin-left: 5vw;
+}
+.met-team1{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  /* width: 400px;
+  height: 400px; */
+}
+.mt img{
+  height: 400px;
+  width: 450px;
+}
+.sp{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 40px 0;
+}
+.mr-info p{
+  font-size: 17px;
+  padding: 10px 0;
+}
+.nm{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.clients{
+  text-align: center;
+  font-size: 50px;
+  padding: 20px 0;
+}
+.clients-fr-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.client-sd-div img{
+  width: 150px;
+  height: 150px;
+  padding: 20px 0;
 }
 .form{
     display: flex;
