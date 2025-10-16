@@ -661,7 +661,56 @@ a:hover{
   border-radius: 20px;
 }
 
-
+/* Business page style */
+.s-flex{
+  display: flex;
+  height: 100vh;
+  
+}
+.blue-business{
+  background: skyblue;
+  width: 40%;
+}
+.blue-business h2{
+  text-align: center;
+  font-size: 50px;
+  padding: 40px;
+}
+.blue-business p{
+  text-align: center;
+  padding: 30px;
+  text-wrap: wrap;
+  line-height: 2;
+  word-spacing: 2px;
+  letter-spacing: 1.5px;
+}
+.services-n{
+  width: 50%;
+  padding-top: 20px;
+}
+.name{
+  padding: 20px;
+}
+.name h5{
+  font-size: 25px;
+  font-weight: 200;
+  word-spacing: 3px;
+  padding: 10px;
+}
+.name p{
+  text-wrap: wrap;
+  line-height: 1.3; 
+  word-spacing: 2px;
+  letter-spacing: 1.5px;
+}
+.simg{
+  background: skyblue ;
+  margin: 0;
+}
+.las{
+  width: 100%;
+  height: 40vh;
+}  
 
 .form{
     display: flex;
