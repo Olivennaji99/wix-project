@@ -174,7 +174,7 @@ nav {
     position: absolute;
     top: 35px;
     left: 0;
-    background:  rgb(173, 217, 236);
+    background:  rgb(236, 245, 249);
     list-style: none;
     min-width: 160px;
     border-radius: 5px;
@@ -545,6 +545,58 @@ a:hover{
   height: 150px;
   padding: 20px 0;
 }
+
+/* Travel service styling */
+.short-blue-background{
+  background: skyblue;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.white-background{
+  background: rgb(236, 245, 249);
+  /* position: relative; */
+  padding: 60px 100px;
+  border: 1.5px solid black;
+  border-radius: 20px;
+  width: 60vw;
+}
+.contact-background{
+  text-align: center;
+}
+.content-background h2{
+  font-size: 40px;
+  padding: 10px;
+}
+.content-background p{
+  line-height: 1.6;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  text-wrap: wrap;
+}
+.our-services{
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+  padding: 20px;
+}
+.blue-yellow{
+  background: skyblue;
+  margin: -10px 0;
+}
+.flex-div{
+  display: flex;
+  justify-content: space-evenly;
+}
+.package{
+  display: flex;
+}
+
+
+
 .form{
     display: flex;
     gap: 20px;
