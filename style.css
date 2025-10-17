@@ -68,6 +68,7 @@ body{
     align-items: center;
     gap: 10px;
     margin-top: 40px;
+    overflow: hidden;
 }
 
 .plane-header h1 {
@@ -800,7 +801,7 @@ footer{
 
 
 
-@keyframes fadeSlideLoop {
+/* @keyframes fadeSlideLoop {
   0% {
     opacity: 0;
     transform: translateY(20px);
@@ -813,11 +814,11 @@ footer{
     opacity: 0;
     transform: translateY(-20px);
   }
-}
+} */
 
-.aba,.tra h2,.service,.rev,.cn, .at-first,button {
+/* .aba,.tra h2,.service,.rev,.cn, .at-first,button {
   animation: fadeSlideLoop 8s ease-in-out infinite;
-}
+} */
 
 
 
