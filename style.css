@@ -1093,6 +1093,11 @@ footer{
     justify-content: center;
     gap: 40px;
   }
+  .white-background{
+    padding: 20px;
+    text-wrap: wrap;
+    width: 50vw;
+  }
 
   .srv {
     flex: 1 1 45%;
@@ -1192,6 +1197,11 @@ footer{
   .srv {
     width: 90%;
     margin-bottom: 20px;
+  }
+
+  .white-background{
+    padding: 5px;
+    text-wrap: wrap;
   }
 
   /* BLOG / STORY SECTIONS */
