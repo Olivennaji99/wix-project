@@ -987,3 +987,270 @@ footer{
   }
 }
 
+
+
+
+
+
+
+/*   RESPONSIVE NAV — KEEP ROW STYLE      */
+
+
+@media (max-width: 992px) {
+  nav {
+    padding: 10px;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+  }
+
+  .nav-links li {
+    margin-right: 0;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 8px 5px;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links li {
+    margin-right: 0;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+
+  /* reduce dropdown size slightly for smaller phones */
+  .dropdown {
+    min-width: 120px;
+  }
+  .dropdown li a {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+
+
+
+/*   GENERAL RESPONSIVENESS — ALL PAGES   */
+
+
+/* Tablet view (992px) */
+@media (max-width: 992px) {
+
+  /* HERO / TRIP SECTION */
+  .trip h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .tra {
+    width: 80%;
+    text-align: center;
+  }
+
+  /* ABOUT PAGE */
+  .abt {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .abt img {
+    width: 80%;
+    max-width: 450px;
+  }
+
+  .about h2 {
+    font-size: 36px;
+  }
+
+  /* SERVICES PAGE */
+  .list-services {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .srv {
+    flex: 1 1 45%;
+    max-width: 350px;
+  }
+
+  /* REVIEWS / CLIENTS */
+  .reviews {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .clients-fr-div {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  /* CONTACT PAGE */
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 30px 10px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* BUSINESS PAGE */
+  .s-flex {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .blue-business, .services-n {
+    width: 100%;
+  }
+}
+
+/* Mobile view ( 768px) */
+@media (max-width: 768px) {
+
+  /* HERO SECTION */
+  .trip {
+    padding: 60px 10px;
+  }
+
+  .trip h1 {
+    font-size: 38px;
+  }
+
+  .tra {
+    width: 90%;
+  }
+
+  .tra h2 {
+    font-size: 30px;
+  }
+
+  .travel-p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* ABOUT */
+  .abt {
+    flex-direction: column;
+    margin: 20px 10px;
+  }
+
+  .about {
+    width: 100%;
+  }
+
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .abt img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* SERVICES */
+  .sv {
+    height: auto;
+    padding: 30px 10px;
+  }
+
+  .list-services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .srv {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  /* BLOG / STORY SECTIONS */
+  .story-div h2, .team-about h3 {
+    font-size: 32px;
+  }
+
+  .para-one, .para-two, .team-about p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .met-team1, .clients-fr-div, .cnt-div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mt img, .client-sd-div img, .pp img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* PACKAGES SECTION */
+  .package {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .image img, .image-info {
+    width: 100%;
+  }
+
+  /* BUSINESS PAGE */
+  .s-flex {
+    flex-direction: column;
+  }
+
+  .blue-business, .services-n {
+    width: 100%;
+  }
+
+  .blue-business h2 {
+    font-size: 30px;
+  }
+
+  /* CONTACT FORM */
+  .contact-info h2 {
+    font-size: 28px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+
